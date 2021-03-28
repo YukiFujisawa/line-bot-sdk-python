@@ -4,10 +4,17 @@ Sample echo-bot using [Flask](http://flask.pocoo.org/)
 
 ## Getting started
 
-```
-$ export LINE_CHANNEL_SECRET=YOUR_LINE_CHANNEL_SECRET
-$ export LINE_CHANNEL_ACCESS_TOKEN=YOUR_LINE_CHANNEL_ACCESS_TOKEN
+### ready.env
 
+```
+$ vi .env
+LINE_CHANNEL_SECRET=YOUR_LINE_CHANNEL_SECRET
+LINE_CHANNEL_ACCESS_TOKEN=YOUR_LINE_CHANNEL_ACCESS_TOKEN
+```
+
+### install libs
+
+```
 $ pip install -r requirements.txt
 ```
 
